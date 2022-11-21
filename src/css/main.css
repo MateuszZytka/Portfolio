@@ -1,0 +1,89 @@
+* {
+    background-color: #042331;
+}
+
+header {
+    background-color: #042331;
+    height: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+
+/* Nav bar Styling */
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 30vw;
+    height: 100%;
+    background: #042331;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    align-items:center;
+}
+
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+button {
+    background-color: #073B52;
+    color: #FAF9F6;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #073B52;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #FAF9F6;
+    color: #042331;
+    border: 2px solid #FAF9F6;
+}
+
+.button-active {
+    background-color: #FAF9F6;
+    color: #042331;
+    border: 2px solid #FAF9F6;
+}
+
+.nav-header {
+    color: #FAF9F6;
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+/* End of nav bar Styling */
+
+/* Pages styling */
+
+.pages {
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    width: 65vw;
+    background-color: #042331;
+    color: #FAF9F6;
+}
+
+.homepage {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+}
