@@ -31,14 +31,13 @@ export default function PortfolioContainer() {
     <div>
       <Header></Header>
       {/* We are passing the currentPage from state and the function to update it */}
-      <div className='pages'>
       <NavTabs />
+      <div className='pages'>
       <About />
       <Projects />
       <Contact />
       <Resume />
       {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
       </div>
     </div>
   );

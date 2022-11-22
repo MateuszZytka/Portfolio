@@ -8,7 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='sidebar'>
       
-      <ul className="navbar"> 
+      <ul className="navitems"> 
       <li><h3 className='nav-header'>Navigation</h3></li>
         <li>
           <button
@@ -36,9 +36,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#resume"
             onClick={() => handlePageChange('Resume')}
             // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Resume' ? 'button-active' : ''}
+            className={currentPage === 'Contact' ? 'button-active' : ''}
           >
-            Resume
+            Contact
           </button>
         </li>
         <li>
@@ -46,9 +46,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#contact"
             onClick={() => handlePageChange('Contact')}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Contact' ? 'button-active' : ''}
+            className={currentPage === 'Resume' ? 'button-active' : ''}
           >
-            Contact
+            Resume
           </button>
         </li>
       </ul>

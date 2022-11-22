@@ -1,5 +1,6 @@
 * {
     background-color: #042331;
+    font-family: 'Dosis', sans-serif;
 }
 
 header {
@@ -19,11 +20,9 @@ header {
     background: #042331;
     display: flex;
     flex-direction: row;
-    justify-items: right;
     align-items:center;
+    z-index: 1;
 }
-
-
 
 li {
     list-style: none;
@@ -63,12 +62,16 @@ button:hover {
     border: none;
 }
 
+.navitems {
+    margin-right: 0;
+    margin-left: auto;
+}
+
 /* End of nav bar Styling */
 
 /* Pages styling */
 
 .pages {
-    position: relative;
     margin-right: 0;
     margin-left: auto;
     width: 65vw;
@@ -77,13 +80,102 @@ button:hover {
 }
 
 .homepage {
-    height: 85vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
 }
 
-h1 {
-    font-family: 'Dosis', sans-serif;
-}
+
+/*  project image wrapper */
+
+.projects {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: #042331;
+  }
+  
+  .wrapper {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: 50px 0;
+    
+    display: flex;
+    flex-direction: row;
+    
+    transition: all 200ms ease-in-out;
+  }
+  
+  .image-wrapper {
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    transition: all 200ms ease-in-out;
+  }
+  
+  img {
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
+    
+    transition: all 200ms ease-in-out;
+  }
+  
+  .book-design-image {
+    object-position: center;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 380px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+    
+  }
+  
+  .header-wrapper h1 {
+    position: relative;
+    bottom: 0;
+    height: 300px;
+    color: #fff;
+    font-size: 80px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    
+    transition: all 200ms ease-in-out;
+  }
+  
+  .wrapper:hover img {
+    transform: scale(2);
+    /*object-position: bottom;*/
+  }
+  
+  .wrapper:hover h1 {
+    bottom: 300px;
+    transform: scale(.4);
+  }
+  
+  .wrapper:hover .image-wrapper {
+    width: 800px;
+  }
+
+  /* form styling */
+
+  .forms {
+    margin-left: 0;
+    margin-right: 30%;
+    height: 80vh;
+  }

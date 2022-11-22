@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '../../images/Logo-Portfolio.png'
-import '../../css/header.css'
+import '../../css/main.css'
 
 function Header() {
     return (
