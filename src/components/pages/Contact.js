@@ -1,10 +1,10 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button'
+import '../../css/main.css'
 
 export default function Contact() {
     return ( 
-        <div className='forms'>
+        <div id='contact' className='forms'>
           <h1> Contact Me </h1>
         <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,9 +22,9 @@ export default function Contact() {
         <Form.Control type="text" placeholder="Company" />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <button variant="primary" type="submit">
         Submit
-      </Button>
+      </button>
     </Form>
       </div>
     )
