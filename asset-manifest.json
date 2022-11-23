@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ef07aa03.css",
+    "main.js": "/portfolio/static/js/main.68af37fd.js",
+    "static/media/Beer-Meal-Buddies.png": "/portfolio/static/media/Beer-Meal-Buddies.dc215a63720d0fe8c826.png",
+    "static/media/Game-Hosting-Site.png": "/portfolio/static/media/Game-Hosting-Site.bac2728a7a19c912f6d0.png",
+    "static/media/Resume -Mateusz Zytka.pdf": "/portfolio/static/media/Resume -Mateusz Zytka.cb105248ed0ba1441f61.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.ef07aa03.css.map": "/portfolio/static/css/main.ef07aa03.css.map",
+    "main.68af37fd.js.map": "/portfolio/static/js/main.68af37fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef07aa03.css",
+    "static/js/main.68af37fd.js"
+  ]
+}
