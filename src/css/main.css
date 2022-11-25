@@ -197,3 +197,17 @@ button:hover {
 .footer {
   width: auto;
 }
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+}
+
+.front, .back{
+  padding: 30px;
+  font-size: 24px;
+}
+
+.front {
+  padding-left: 0px;
+}
