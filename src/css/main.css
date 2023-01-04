@@ -90,87 +90,61 @@ button:hover {
 
 /*  project image wrapper */
 
-.projects {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    background: #042331;
-  }
-  
-  .wrapper {
-    position: relative;
-    height: 300px;
-    width: 600px;
-    margin: 50px 0;
-    
-    display: flex;
-    flex-direction: row;
-    
-    transition: all 200ms ease-in-out;
-  }
-  
-  .image-wrapper {
-    height: 300px;
-    width: 450px;
-    overflow: hidden;
-    border-radius: 5px;
-    cursor: pointer;
-  
-    transition: all 200ms ease-in-out;
-  }
-  
-  img {
-    height: 300px;
-    width: 450px;
-    object-fit: cover;
-    object-position: top;
-    
-    transition: all 200ms ease-in-out;
-  }
-  
-  .book-design-image {
-    object-position: center;
-  }
-  
-  .header-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    left: 380px;
-    transition: all 200ms ease-in-out;
-    overflow: hidden;
-    
-  }
-  
-  .header-wrapper h1 {
-    position: relative;
-    bottom: 0;
-    height: 300px;
-    color: #fff;
-    font-size: 80px;
-    font-family: Oswald;
-    text-transform: uppercase;
-    
-    transition: all 200ms ease-in-out;
-  }
-  
-  .wrapper:hover img {
-    transform: scale(2);
-    /*object-position: bottom;*/
-  }
-  
-  .wrapper:hover h1 {
-    bottom: 300px;
-    transform: scale(.4);
-  }
-  
-  .wrapper:hover .image-wrapper {
-    width: 800px;
-  }
+.projectBox {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+}
+
+.projectBox img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overlay {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlay > * {
+  transform: translateY(100px);
+  transition: transform 0.25s;
+}
+
+.overlay:hover > * {
+  transform: translateY(0px);
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.projectName{
+  background-color: transparent;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.projectDesc{
+  background-color: transparent;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 
   /* form styling */
 

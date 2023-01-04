@@ -2,28 +2,37 @@ import React from 'react';
 import '../../css/main.css'
 import Beer from '../../images/Beer-Meal-Buddies.png'
 import Game from '../../images/Game-Hosting-Site.png'
+import Vapour from '../../images/vapour screenshot.png'
 
 export default function Projects() {
     return ( 
-      <div id='projects' className='projects'>
-        <div className="wrapper">
-          <div className="image-wrapper">
-            <img src={Game} alt='game hosting website' /></div>
-          <div className="header-wrapper">
-            <h1>Poster Art</h1>
-            <h1>See Project</h1>
+    <div>
+      <figure class="projectBox">
+        <img src= {Beer} alt="Beer" />
+        <div class ="overlay">
+          <div class="projectName">Beer + Meal Buddies</div>
+          <p class="projectDesc">Created using HTML, CSS and JS</p>
         </div>
-      </div>
-      
-      <div className="wrapper">
-        <div className="image-wrapper">
-          <img className="book-design-image" src={Beer} alt='beer and food pairing website' /></div>
-          <div className="header-wrapper">
-            <h1>Book Design</h1>
-            <h1>See Project</h1>
+        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+      </figure>
+
+      <figure class="projectBox">
+        <img src= {Game} alt="Beer" />
+        <div class ="overlay">
+          <div class="projectName">Game Hosting Site</div>
+          <p class="projectDesc">Created using HTML, CSS and JS, MySQL, Handlebars, MVC, P5.js</p>
         </div>
-      </div>
-      
+        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+      </figure>
+
+      <figure class="projectBox">
+        <img src= {Vapour} alt="Beer" />
+        <div class ="overlay">
+          <div class="projectName">Vapour</div>
+          <p class="projectDesc">Created using MongoDb, Express, React, Node</p>
+        </div>
+        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+      </figure>
     </div>
     )
 }
