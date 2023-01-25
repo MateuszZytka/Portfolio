@@ -8,30 +8,33 @@ export default function Projects() {
     return ( 
     <div>
       <figure class="projectBox">
+        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/">
         <img src= {Beer} alt="Beer" />
         <div class ="overlay">
           <div class="projectName">Beer + Meal Buddies</div>
           <p class="projectDesc">Created using HTML, CSS and JS</p>
         </div>
-        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+        </a>
       </figure>
 
       <figure class="projectBox">
-        <img src= {Game} alt="Beer" />
+        <a href="https://game-hosting.herokuapp.com/">
+        <img src= {Game} alt="Game Hosting Site" />
         <div class ="overlay">
           <div class="projectName">Game Hosting Site</div>
           <p class="projectDesc">Created using HTML, CSS and JS, MySQL, Handlebars, MVC, P5.js</p>
         </div>
-        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+        </a>
       </figure>
 
       <figure class="projectBox">
-        <img src= {Vapour} alt="Beer" />
+        <a href="https://vapour.herokuapp.com/">
+        <img src= {Vapour} alt="Vapour" />
         <div class ="overlay">
           <div class="projectName">Vapour</div>
-          <p class="projectDesc">Created using MongoDb, Express, React, Node</p>
+          <p class="projectDesc">Created using MongoDb, Express, React, Node, GraphQL</p>
         </div>
-        <a href="https://branbao1995.github.io/Beer-Meal-Buddies/"></a>
+        </a>
       </figure>
     </div>
     )

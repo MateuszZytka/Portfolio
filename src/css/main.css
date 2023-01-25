@@ -10,6 +10,10 @@ header {
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 
+a {
+  color:#FAF9F6;
+  text-decoration: none;
+}
 
 /* Nav bar Styling */
 .sidebar {
