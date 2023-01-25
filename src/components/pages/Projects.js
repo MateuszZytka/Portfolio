@@ -6,7 +6,7 @@ import Vapour from '../../images/vapour screenshot.png'
 
 export default function Projects() {
     return ( 
-    <div>
+    <div id ='projects'>
       <figure class="projectBox">
         <a href="https://branbao1995.github.io/Beer-Meal-Buddies/">
         <img src= {Beer} alt="Beer" />
